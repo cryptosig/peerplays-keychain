@@ -1,0 +1,30 @@
+{
+  "name": "peerplays-keychain",
+  "version": "1.0.0.0",
+  "description": "Peerplays Keychain extension",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "doc": "documentation build js/peerplays_keychain.js -f md -c documentation.yml -o README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptosig/peerplays-keychain.git"
+  },
+  "keywords": [
+    "peerplays",
+    "keychain",
+    "extension"
+  ],
+  "author": "cryptosig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cryptosig/peerplays-keychain/issues"
+  },
+  "homepage": "https://github.com/cryptosig/peerplays-keychain#readme",
+  "dependencies": {
+    "documentation": "^13.0.0"
+  }
+}
