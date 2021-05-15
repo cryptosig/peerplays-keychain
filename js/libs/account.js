@@ -107,8 +107,8 @@ class Account {
     return [vm, full];
   }
 
-  async getHive() {
-    return (await this.getAccountInfo("balance")).replace(" HIVE", "");
+  async getPPY() {
+    return (await this.getAccountInfo("balance")).replace(" PPY", "");
   }
 
   async getHBD() {
